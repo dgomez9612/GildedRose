@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GildedRose_00", "GildedRose_00\GildedRose_00.csproj", "{B03CDE80-D68C-476D-AE3F-319F0C9C6594}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B03CDE80-D68C-476D-AE3F-319F0C9C6594}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B03CDE80-D68C-476D-AE3F-319F0C9C6594}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B03CDE80-D68C-476D-AE3F-319F0C9C6594}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B03CDE80-D68C-476D-AE3F-319F0C9C6594}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
