@@ -1,21 +1,27 @@
 ﻿using System.Collections.Generic;
-using GildedRose_00.Negocio;
+using GildedRose.Datos.Producto;
+using GildedRose.Negocio;
+using GildedRose.Negocio.Articulos;
+using GildedRose.Negocio.CatalogoArticulos;
 
 namespace GildedRose_00
 {
     public class GildedRose
     {
-        IList<Item> Items;
+        private CondicionesGenerales CondicionesGenerales => CondicionesGenerales.GetInstance();
+        readonly IList<Item> _items;
+
         public GildedRose(IList<Item> Items)
         {
-            this.Items = Items;
+            this._items = Items;
         }
+
         public void UpdateQuality()
         {
-            Core coreGildRose = new Core();
-            for (int i = 0; i < Items.Count; i++)
+            for (int i = 0; i < _items.Count; i++)
             {
-                Items[i] = coreGildRose.UpdateArticulos(Items[i]);
+                var articulo = _items[i];
+                _items[i] = articulo.AtualizarArticulo();
             }
         }
     }

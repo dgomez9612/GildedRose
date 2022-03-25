@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <StartupObject>GildedRose_00.Program</StartupObject>
     <LangVersion>9</LangVersion>
     <AssemblyName>GildedRose_00</AssemblyName>
@@ -14,5 +14,10 @@
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.7.0" />
     <PackageReference Include="xunit" Version="2.3.1" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GildedRose.Datos\GildedRose.Datos.csproj" />
+    <ProjectReference Include="..\GildedRose.Negocio\GildedRose.Negocio.csproj" />
   </ItemGroup>
 </Project>

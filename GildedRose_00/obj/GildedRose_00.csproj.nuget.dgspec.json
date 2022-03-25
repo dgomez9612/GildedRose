@@ -1,40 +1,92 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Proyectos\\PERSONAL\\GildedRose\\GildedRose_00\\GildedRose_00.csproj": {}
+    "D:\\Proyectos\\SAO\\PERSONAL\\GildedRose\\GildedRose_00\\GildedRose_00.csproj": {}
   },
   "projects": {
-    "D:\\Proyectos\\PERSONAL\\GildedRose\\GildedRose_00\\GildedRose_00.csproj": {
+    "D:\\Proyectos\\SAO\\PERSONAL\\GildedRose\\GildedRose.Datos\\GildedRose.Datos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Proyectos\\PERSONAL\\GildedRose\\GildedRose_00\\GildedRose_00.csproj",
-        "projectName": "GildedRose_00",
-        "projectPath": "D:\\Proyectos\\PERSONAL\\GildedRose\\GildedRose_00\\GildedRose_00.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\Proyectos\\PERSONAL\\GildedRose\\GildedRose_00\\obj\\",
+        "projectUniqueName": "D:\\Proyectos\\SAO\\PERSONAL\\GildedRose\\GildedRose.Datos\\GildedRose.Datos.csproj",
+        "projectName": "GildedRose.Datos",
+        "projectPath": "D:\\Proyectos\\SAO\\PERSONAL\\GildedRose\\GildedRose.Datos\\GildedRose.Datos.csproj",
+        "packagesPath": "C:\\Users\\Usuario1\\.nuget\\packages\\",
+        "outputPath": "D:\\Proyectos\\SAO\\PERSONAL\\GildedRose\\GildedRose.Datos\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WinForms.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WPF.config"
+          "C:\\Users\\Usuario1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.telerik.com/nuget": {}
+          "https://nuget.telerik.com/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Proyectos\\SAO\\PERSONAL\\GildedRose\\GildedRose.Negocio\\GildedRose.Negocio.csproj": {
+                "projectPath": "D:\\Proyectos\\SAO\\PERSONAL\\GildedRose\\GildedRose.Negocio\\GildedRose.Negocio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Proyectos\\SAO\\PERSONAL\\GildedRose\\GildedRose.Negocio\\GildedRose.Negocio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Proyectos\\SAO\\PERSONAL\\GildedRose\\GildedRose.Negocio\\GildedRose.Negocio.csproj",
+        "projectName": "GildedRose.Negocio",
+        "projectPath": "D:\\Proyectos\\SAO\\PERSONAL\\GildedRose\\GildedRose.Negocio\\GildedRose.Negocio.csproj",
+        "packagesPath": "C:\\Users\\Usuario1\\.nuget\\packages\\",
+        "outputPath": "D:\\Proyectos\\SAO\\PERSONAL\\GildedRose\\GildedRose.Negocio\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Usuario1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -45,8 +97,70 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Proyectos\\SAO\\PERSONAL\\GildedRose\\GildedRose_00\\GildedRose_00.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Proyectos\\SAO\\PERSONAL\\GildedRose\\GildedRose_00\\GildedRose_00.csproj",
+        "projectName": "GildedRose_00",
+        "projectPath": "D:\\Proyectos\\SAO\\PERSONAL\\GildedRose\\GildedRose_00\\GildedRose_00.csproj",
+        "packagesPath": "C:\\Users\\Usuario1\\.nuget\\packages\\",
+        "outputPath": "D:\\Proyectos\\SAO\\PERSONAL\\GildedRose\\GildedRose_00\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Usuario1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Proyectos\\SAO\\PERSONAL\\GildedRose\\GildedRose.Datos\\GildedRose.Datos.csproj": {
+                "projectPath": "D:\\Proyectos\\SAO\\PERSONAL\\GildedRose\\GildedRose.Datos\\GildedRose.Datos.csproj"
+              },
+              "D:\\Proyectos\\SAO\\PERSONAL\\GildedRose\\GildedRose.Negocio\\GildedRose.Negocio.csproj": {
+                "projectPath": "D:\\Proyectos\\SAO\\PERSONAL\\GildedRose\\GildedRose.Negocio\\GildedRose.Negocio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "ApprovalTests": {
               "target": "Package",
@@ -80,7 +194,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

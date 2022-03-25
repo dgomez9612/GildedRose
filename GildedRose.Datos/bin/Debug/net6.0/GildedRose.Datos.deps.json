@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "GildedRose.Datos/1.0.0": {
+        "dependencies": {
+          "GildedRose.Negocio": "1.0.0"
+        },
+        "runtime": {
+          "GildedRose.Datos.dll": {}
+        }
+      },
+      "GildedRose.Negocio/1.0.0": {
+        "runtime": {
+          "GildedRose.Negocio.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GildedRose.Datos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GildedRose.Negocio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

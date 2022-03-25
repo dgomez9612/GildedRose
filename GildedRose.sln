@@ -2,6 +2,12 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GildedRose_00", "GildedRose_00\GildedRose_00.csproj", "{B03CDE80-D68C-476D-AE3F-319F0C9C6594}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GildedRose.Datos", "GildedRose.Datos\GildedRose.Datos.csproj", "{6E110EDC-193E-4EE9-B25C-1326C75BFA75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GildedRose.Negocio", "GildedRose.Negocio\GildedRose.Negocio.csproj", "{E078BBA6-9D15-4CA7-B5A7-959E69CEB9A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GildedRose.Test", "GildedRose.Test\GildedRose.Test.csproj", "{386D2D68-2D1C-4520-A0E5-DE097DA7C4FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +18,17 @@ Global
 		{B03CDE80-D68C-476D-AE3F-319F0C9C6594}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B03CDE80-D68C-476D-AE3F-319F0C9C6594}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B03CDE80-D68C-476D-AE3F-319F0C9C6594}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E110EDC-193E-4EE9-B25C-1326C75BFA75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E110EDC-193E-4EE9-B25C-1326C75BFA75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E110EDC-193E-4EE9-B25C-1326C75BFA75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E110EDC-193E-4EE9-B25C-1326C75BFA75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E078BBA6-9D15-4CA7-B5A7-959E69CEB9A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E078BBA6-9D15-4CA7-B5A7-959E69CEB9A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E078BBA6-9D15-4CA7-B5A7-959E69CEB9A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E078BBA6-9D15-4CA7-B5A7-959E69CEB9A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{386D2D68-2D1C-4520-A0E5-DE097DA7C4FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{386D2D68-2D1C-4520-A0E5-DE097DA7C4FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{386D2D68-2D1C-4520-A0E5-DE097DA7C4FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{386D2D68-2D1C-4520-A0E5-DE097DA7C4FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
