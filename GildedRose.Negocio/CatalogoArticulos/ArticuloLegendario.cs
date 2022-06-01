@@ -7,7 +7,8 @@ public class ArticuloLegendario:Articulo
 {
     public override Item AtualizarArticulo()
     {
-        SellIn = SellIn + 1;
+        // base.AtualizarArticulo();
+        //  Quality = Quality + 1;
         return this;
     }
 

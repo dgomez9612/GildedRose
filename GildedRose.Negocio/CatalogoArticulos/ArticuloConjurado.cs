@@ -10,6 +10,7 @@ public class ArticuloConjurado:Articulo
     public override Item AtualizarArticulo()
     {
         var articulo = this;
+        base.AtualizarArticulo();
         articulo.Quality = CondicionesGenerales.DisminuirQuality(articulo.Quality, 2);
         return articulo;
     }

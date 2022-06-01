@@ -9,10 +9,10 @@ public class ArticuloAgedBrieTests
     public void AgedBrie_Debe_Aumentar_Quality_After_Actualizar()
     {
         var agedBrie = new ArticuloAgedBrie("", 3, 0);
-
-        agedBrie.AtualizarArticulo();
-        
-        Assert.Equal(2, agedBrie.SellIn);
+                                         
+                                                 agedBrie.AtualizarArticulo();
+                                                 
+                                                 Assert.Equal(2, agedBrie.SellIn);
         Assert.Equal(1, agedBrie.Quality);
     }
         

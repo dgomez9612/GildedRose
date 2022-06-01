@@ -14,7 +14,7 @@ public class ArticuloBackstage:Articulo
     public override Item AtualizarArticulo()
     {
         var articulo = this;
-        
+        base.AtualizarArticulo();
         if (!CondicionesGenerales.ValidateSellInMayorTo(articulo.SellIn, 0))
         {
             articulo.Quality = 0;

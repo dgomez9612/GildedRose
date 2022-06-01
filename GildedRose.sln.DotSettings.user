@@ -5,5 +5,9 @@
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=3725113f_002D37fd_002D490c_002Db8d4_002Dffa6d30bc41a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="AgedBrie_Debe_Aumentar_Quality_After_Actualizar" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::386D2D68-2D1C-4520-A0E5-DE097DA7C4FD::net6.0::GildedRose.Test.ArticuloAgedBrieTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::386D2D68-2D1C-4520-A0E5-DE097DA7C4FD::net6.0::GildedRose.Test.ArticuloLegendarioTests.No_Debe_Aumentar_Quality_After_Actualizar&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::386D2D68-2D1C-4520-A0E5-DE097DA7C4FD::net6.0::GildedRose.Test.ArticuloLegendarioTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::386D2D68-2D1C-4520-A0E5-DE097DA7C4FD::net6.0::GildedRose.Test.ArticuloCojuradoTests.Debe_Disminuir_Quality_Al_Doble_After_Actualizar&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::386D2D68-2D1C-4520-A0E5-DE097DA7C4FD::net6.0::GildedRose.Test.ArticuloCojuradoTests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

@@ -9,7 +9,7 @@ namespace GildedRose.Negocio.CatalogoArticulos
         public override Item AtualizarArticulo()
         {
             var articulo = this;
-            
+            base.AtualizarArticulo();
             if (!CondicionesGenerales.ValidateSellInMayorTo(articulo.SellIn, 0))
                 articulo.Quality = CondicionesGenerales.DisminuirQuality(articulo.Quality, 2);
             
