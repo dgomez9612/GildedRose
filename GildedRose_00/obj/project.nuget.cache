@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jCKsMGNniBZGyMP8SvcETuJQUNHW/nG/g2YhixoES9RpMppm0qpf9Hz4ivaas4sVNs5oSnUXg2S7E0SA7IjwJg==",
+  "dgSpecHash": "oM2Ki+gA5vxIH9QbVAo0FNXrvIL245pgHePr7bAbBBiYArqShXnNQwjm48uVaHSMVHBjLWHwXV37L6RVbdmkVA==",
   "success": true,
-  "projectFilePath": "D:\\Proyectos\\SAO\\PERSONAL\\GildedRose\\GildedRose_00\\GildedRose_00.csproj",
+  "projectFilePath": "D:\\Proyectos\\Ejercisios\\GildeRose\\GildedRose_00\\GildedRose_00.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario1\\.nuget\\packages\\approvaltests\\4.2.0\\approvaltests.4.2.0.nupkg.sha512",
     "C:\\Users\\Usuario1\\.nuget\\packages\\approvalutilities\\4.2.0\\approvalutilities.4.2.0.nupkg.sha512",

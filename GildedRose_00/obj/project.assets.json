@@ -7633,11 +7633,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Proyectos\\SAO\\PERSONAL\\GildedRose\\GildedRose_00\\GildedRose_00.csproj",
+      "projectUniqueName": "D:\\Proyectos\\Ejercisios\\GildeRose\\GildedRose_00\\GildedRose_00.csproj",
       "projectName": "GildedRose_00",
-      "projectPath": "D:\\Proyectos\\SAO\\PERSONAL\\GildedRose\\GildedRose_00\\GildedRose_00.csproj",
+      "projectPath": "D:\\Proyectos\\Ejercisios\\GildeRose\\GildedRose_00\\GildedRose_00.csproj",
       "packagesPath": "C:\\Users\\Usuario1\\.nuget\\packages\\",
-      "outputPath": "D:\\Proyectos\\SAO\\PERSONAL\\GildedRose\\GildedRose_00\\obj\\",
+      "outputPath": "D:\\Proyectos\\Ejercisios\\GildeRose\\GildedRose_00\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Usuario1\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7655,11 +7655,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Proyectos\\SAO\\PERSONAL\\GildedRose\\GildedRose.Datos\\GildedRose.Datos.csproj": {
-              "projectPath": "D:\\Proyectos\\SAO\\PERSONAL\\GildedRose\\GildedRose.Datos\\GildedRose.Datos.csproj"
+            "D:\\Proyectos\\Ejercisios\\GildeRose\\GildedRose.Datos\\GildedRose.Datos.csproj": {
+              "projectPath": "D:\\Proyectos\\Ejercisios\\GildeRose\\GildedRose.Datos\\GildedRose.Datos.csproj"
             },
-            "D:\\Proyectos\\SAO\\PERSONAL\\GildedRose\\GildedRose.Negocio\\GildedRose.Negocio.csproj": {
-              "projectPath": "D:\\Proyectos\\SAO\\PERSONAL\\GildedRose\\GildedRose.Negocio\\GildedRose.Negocio.csproj"
+            "D:\\Proyectos\\Ejercisios\\GildeRose\\GildedRose.Negocio\\GildedRose.Negocio.csproj": {
+              "projectPath": "D:\\Proyectos\\Ejercisios\\GildeRose\\GildedRose.Negocio\\GildedRose.Negocio.csproj"
             }
           }
         }
