@@ -18,6 +18,7 @@ namespace GildedRose.Negocio.CatalogoArticulos
 
         public ArticuloGenerico(string name, int sellIn, int quality) : base(name, sellIn, quality)
         {
+           
         }
        
     }

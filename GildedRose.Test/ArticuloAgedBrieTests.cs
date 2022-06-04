@@ -8,7 +8,7 @@ public class ArticuloAgedBrieTests
     [Fact]
     public void AgedBrie_Debe_Aumentar_Quality_After_Actualizar()
     {
-        var agedBrie = new ArticuloAgedBrie("", 3, 0);
+        var agedBrie = new ArticuloAgedBrie("Test", 3, 0);
                                          
                                                  agedBrie.AtualizarArticulo();
                                                  
@@ -19,7 +19,7 @@ public class ArticuloAgedBrieTests
     [Fact]
     public void AgedBrie_Debe_Aumentar_Al_Doble_Quality_After_Actualizar_When_SellIn_Is_0()
     {
-        var agedBrie = new ArticuloAgedBrie("", 0, 0);
+        var agedBrie = new ArticuloAgedBrie("Test", 0, 0);
 
         agedBrie.AtualizarArticulo();
         

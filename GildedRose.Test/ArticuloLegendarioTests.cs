@@ -9,7 +9,7 @@ public class ArticuloLegendarioTests
     public void No_Debe_Aumentar_Quality_After_Actualizar()
     {
         var qualityOriginal = 80;
-        var legendario = new ArticuloLegendario("", 0, qualityOriginal);
+        var legendario = new ArticuloLegendario("Test", 0, qualityOriginal);
         
         legendario.AtualizarArticulo();
         
@@ -20,7 +20,7 @@ public class ArticuloLegendarioTests
     public void No_Debe_Aumentar_Sellin_After_Actualizar()
     {
         var sellin = 3;
-        var legendario = new ArticuloLegendario("", sellin, 0);
+        var legendario = new ArticuloLegendario("Test", sellin, 0);
         
         legendario.AtualizarArticulo();
         

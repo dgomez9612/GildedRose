@@ -12,6 +12,7 @@ public class Item
 
     public Item(string name, int sellIn, int quality)
     {
+        if (String.IsNullOrEmpty(name)) throw new Exception("Valor Name Requerido");
         Name = name;
         SellIn = sellIn;
         Quality = quality;

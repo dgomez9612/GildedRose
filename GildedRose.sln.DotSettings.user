@@ -9,5 +9,14 @@
     &lt;TestId&gt;xUnit::386D2D68-2D1C-4520-A0E5-DE097DA7C4FD::net6.0::GildedRose.Test.ArticuloLegendarioTests&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::386D2D68-2D1C-4520-A0E5-DE097DA7C4FD::net6.0::GildedRose.Test.ArticuloCojuradoTests.Debe_Disminuir_Quality_Al_Doble_After_Actualizar&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::386D2D68-2D1C-4520-A0E5-DE097DA7C4FD::net6.0::GildedRose.Test.ArticuloCojuradoTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::386D2D68-2D1C-4520-A0E5-DE097DA7C4FD::net6.0::GildedRose.Test.ArticuloGenericoTest.Articulo_Debe_Disminuir_Quality_After_Actualizar&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::386D2D68-2D1C-4520-A0E5-DE097DA7C4FD::net6.0::GildedRose.Test.ArticuloGenericoTest.ArticuloGenerico_No_Debe_Disminuir_Quality_Al_Doble_After_Actualizar_Si_Sellin_Mayor_A_Cero&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::386D2D68-2D1C-4520-A0E5-DE097DA7C4FD::net6.0::GildedRose.Test.ArticuloGenericoTest.ArticuloGenerico_No_Debe_Disminuir_Quality_Al_Doble_After_Actualizar_Si_Sellin_Mayor_A_Uno&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::386D2D68-2D1C-4520-A0E5-DE097DA7C4FD::net6.0::GildedRose.Test.ArticuloGenericoTest.ArticuloGenerico_Debe_Tener_Un_Name&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::386D2D68-2D1C-4520-A0E5-DE097DA7C4FD::net6.0::GildedRose.Test.ArticuloGenericoTest.ArticuloGenerico_Debe_Votar_Exception_Al_No_Tener_Un_Name&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::386D2D68-2D1C-4520-A0E5-DE097DA7C4FD::net6.0::GildedRose.Test.CondicionesGeneralesTest.Quality_No_Debe_de_ser_Mayor_a_50&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::386D2D68-2D1C-4520-A0E5-DE097DA7C4FD::net6.0::GildedRose.Test.CondicionesGeneralesTest.Quality_Maxima_Debe_ser_de_50&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::386D2D68-2D1C-4520-A0E5-DE097DA7C4FD::net6.0::GildedRose.Test.CondicionesGeneralesTest.Al_Aumentar_Quality_No_Debe_Superar_el_maximo_de_50&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::386D2D68-2D1C-4520-A0E5-DE097DA7C4FD::net6.0::GildedRose.Test.CondicionesGeneralesTest.Al_Disminuir_Quality_No_Debe_Ser_Menor_A_Cero&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
