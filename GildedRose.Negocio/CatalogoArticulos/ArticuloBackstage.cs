@@ -11,10 +11,10 @@ public class ArticuloBackstage:Articulo
     {
     }
     
-    public override Item AtualizarArticulo()
+    public override Item ActualizarArticulo()
     {
         var articulo = this;
-        base.AtualizarArticulo();
+        base.ActualizarArticulo();
         if (!CondicionesGenerales.ValidateSellInMayorTo(articulo.SellIn, 0))
         {
             articulo.Quality = 0;

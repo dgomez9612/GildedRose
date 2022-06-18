@@ -21,7 +21,7 @@ namespace GildedRose_00
             for (int i = 0; i < _items.Count; i++)
             {
                 var articulo = _items[i];
-                _items[i] = articulo.AtualizarArticulo();
+                _items[i] = articulo.ActualizarArticulo();
             }
         }
     }

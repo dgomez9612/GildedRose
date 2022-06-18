@@ -6,10 +6,10 @@ namespace GildedRose.Negocio.CatalogoArticulos
     public class ArticuloGenerico:Articulo
     {
         private CondicionesGenerales CondicionesGenerales => CondicionesGenerales.GetInstance();
-        public override Item AtualizarArticulo()
+        public override Item ActualizarArticulo()
         {
             var articulo = this;
-            base.AtualizarArticulo();
+            base.ActualizarArticulo();
             if (!CondicionesGenerales.ValidateSellInMayorTo(articulo.SellIn, 0))
                 articulo.Quality = CondicionesGenerales.DisminuirQuality(articulo.Quality, 2);
             

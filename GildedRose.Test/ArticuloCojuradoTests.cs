@@ -11,7 +11,7 @@ public class ArticuloCojuradoTests
         var qulity = 10;
         var conjurado = new ArticuloConjurado("Test", 3, qulity);
 
-        conjurado.AtualizarArticulo();
+        conjurado.ActualizarArticulo();
         
         Assert.Equal((qulity-2), conjurado.Quality);
     }

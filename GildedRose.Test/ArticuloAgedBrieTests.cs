@@ -10,7 +10,7 @@ public class ArticuloAgedBrieTests
     {
         var agedBrie = new ArticuloAgedBrie("Test", 3, 0);
                                          
-                                                 agedBrie.AtualizarArticulo();
+                                                 agedBrie.ActualizarArticulo();
                                                  
                                                  Assert.Equal(2, agedBrie.SellIn);
         Assert.Equal(1, agedBrie.Quality);
@@ -21,7 +21,7 @@ public class ArticuloAgedBrieTests
     {
         var agedBrie = new ArticuloAgedBrie("Test", 0, 0);
 
-        agedBrie.AtualizarArticulo();
+        agedBrie.ActualizarArticulo();
         
         Assert.Equal(2, agedBrie.Quality);
     }

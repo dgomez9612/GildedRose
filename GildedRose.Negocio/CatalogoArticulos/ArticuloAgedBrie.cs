@@ -11,9 +11,9 @@ public class ArticuloAgedBrie:Articulo
     {
     }
     
-    public override Item AtualizarArticulo()
+    public override Item ActualizarArticulo()
     {
-        base.AtualizarArticulo();
+        base.ActualizarArticulo();
         
         if (CondicionesGenerales.ValidateSellInMayorTo(this.SellIn, 0))
         {

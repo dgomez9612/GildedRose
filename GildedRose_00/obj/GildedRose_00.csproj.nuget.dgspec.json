@@ -10,11 +10,15 @@
         "projectUniqueName": "D:\\Proyectos\\Ejercisios\\GildeRose\\GildedRose.Datos\\GildedRose.Datos.csproj",
         "projectName": "GildedRose.Datos",
         "projectPath": "D:\\Proyectos\\Ejercisios\\GildeRose\\GildedRose.Datos\\GildedRose.Datos.csproj",
-        "packagesPath": "C:\\Users\\Usuario1\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\dgome\\.nuget\\packages\\",
         "outputPath": "D:\\Proyectos\\Ejercisios\\GildeRose\\GildedRose.Datos\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Usuario1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dgome\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,8 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.telerik.com/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -59,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -69,11 +72,15 @@
         "projectUniqueName": "D:\\Proyectos\\Ejercisios\\GildeRose\\GildedRose.Negocio\\GildedRose.Negocio.csproj",
         "projectName": "GildedRose.Negocio",
         "projectPath": "D:\\Proyectos\\Ejercisios\\GildeRose\\GildedRose.Negocio\\GildedRose.Negocio.csproj",
-        "packagesPath": "C:\\Users\\Usuario1\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\dgome\\.nuget\\packages\\",
         "outputPath": "D:\\Proyectos\\Ejercisios\\GildeRose\\GildedRose.Negocio\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Usuario1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dgome\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -81,8 +88,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.telerik.com/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -114,7 +120,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -124,11 +130,15 @@
         "projectUniqueName": "D:\\Proyectos\\Ejercisios\\GildeRose\\GildedRose_00\\GildedRose_00.csproj",
         "projectName": "GildedRose_00",
         "projectPath": "D:\\Proyectos\\Ejercisios\\GildeRose\\GildedRose_00\\GildedRose_00.csproj",
-        "packagesPath": "C:\\Users\\Usuario1\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\dgome\\.nuget\\packages\\",
         "outputPath": "D:\\Proyectos\\Ejercisios\\GildeRose\\GildedRose_00\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Usuario1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dgome\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -136,8 +146,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.telerik.com/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -194,7 +203,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -11,7 +11,7 @@ public class ArticuloLegendarioTests
         var qualityOriginal = 80;
         var legendario = new ArticuloLegendario("Test", 0, qualityOriginal);
         
-        legendario.AtualizarArticulo();
+        legendario.ActualizarArticulo();
         
         Assert.Equal(legendario.Quality, qualityOriginal);
     }
@@ -22,7 +22,7 @@ public class ArticuloLegendarioTests
         var sellin = 3;
         var legendario = new ArticuloLegendario("Test", sellin, 0);
         
-        legendario.AtualizarArticulo();
+        legendario.ActualizarArticulo();
         
         Assert.Equal(legendario.SellIn, sellin);
     }

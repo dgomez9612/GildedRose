@@ -7,10 +7,10 @@ public class ArticuloConjurado:Articulo
 {
     private CondicionesGenerales CondicionesGenerales => CondicionesGenerales.GetInstance();
     
-    public override Item AtualizarArticulo()
+    public override Item ActualizarArticulo()
     {
         var articulo = this;
-        base.AtualizarArticulo();
+        base.ActualizarArticulo();
         articulo.Quality = CondicionesGenerales.DisminuirQuality(articulo.Quality, 2);
         return articulo;
     }

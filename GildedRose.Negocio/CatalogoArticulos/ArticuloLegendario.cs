@@ -5,7 +5,7 @@ namespace GildedRose.Negocio.CatalogoArticulos;
 
 public class ArticuloLegendario:Articulo
 {
-    public override Item AtualizarArticulo()
+    public override Item ActualizarArticulo()
     {
         // base.AtualizarArticulo();
         //  Quality = Quality + 1;

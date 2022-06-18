@@ -11,7 +11,7 @@ public class ArticuloGenericoTest
     {
         var qualityOriginal = 10;
         var articuloGenerico = new ArticuloGenerico("Test", 0, qualityOriginal);
-        articuloGenerico.AtualizarArticulo();
+        articuloGenerico.ActualizarArticulo();
         Assert.Equal((qualityOriginal-2), articuloGenerico.Quality);
     }
     [Fact]
@@ -20,7 +20,7 @@ public class ArticuloGenericoTest
         var qualityOriginal = 10;
         var sellin = 2;
         var articuloGenerico = new ArticuloGenerico("Test", sellin, qualityOriginal);
-        articuloGenerico.AtualizarArticulo();
+        articuloGenerico.ActualizarArticulo();
         Assert.Equal(qualityOriginal, articuloGenerico.Quality);
     }
 

@@ -18,7 +18,7 @@ public class Item
         Quality = quality;
     }
 
-    public virtual Item AtualizarArticulo()
+    public virtual Item ActualizarArticulo()
     {
         SellIn = SellIn - 1;
         return this;
